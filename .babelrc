@@ -1,0 +1,34 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": "last 2 versions",
+          "node": "6.10",
+          "esmodules": true // browsers will be ignored
+        }
+      }
+    ]
+  ],
+  "comments": false,
+  "sourceMaps": "both", // not needed ~browserify:debug will create and webpack devtools:true will create
+  "plugins": [
+    "@babel/plugin-transform-typescript",
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+    "transform-es5-property-mutators",
+    [
+      "transform-remove-console",
+      {
+        "exclude": ["error", "warn", "info"]
+      }
+    ],
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "absoluteRuntime": false
+      }
+    ]
+  ]
+}

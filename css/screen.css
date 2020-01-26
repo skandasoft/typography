@@ -1,0 +1,17 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Montserrat, Raleway, 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.serif {
+  font-family: 'Bree Serif', Cambria, Cochin, Georgia, Times, 'Times New Roman',
+    serif;
+}
+
+p {
+  font-size: 1.125em;
+  text-align: justify;
+}
