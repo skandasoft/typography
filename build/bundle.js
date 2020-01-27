@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.info('hello' + 'world');\n\n//# sourceURL=webpack:///./ts/index.ts?");
+eval("console.info('hello' + 'world');\nvar comma = ',';\nconsole.info(\"hello \".concat(comma, \" world\"));\n\n//# sourceURL=webpack:///./ts/index.ts?");
 
 /***/ })
 

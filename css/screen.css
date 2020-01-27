@@ -11,7 +11,20 @@
     serif;
 }
 
+.text-large {
+  font-size: 3em;
+}
+
+.text-decorate {
+  text-decoration: overline;
+  text-decoration-style: dashed;
+  text-decoration-color: coral;
+  /* text-decoration-thickness: 2rem; */
+  text-shadow: 2px 2px gray; /* reverse L */
+  letter-spacing: 0.2em;
+}
 p {
   font-size: 1.125em;
   text-align: justify;
+  line-height: 1.5;
 }
