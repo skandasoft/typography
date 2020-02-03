@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+  color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}
+
+.trigger {
+  border: 20px solid #ddd;
+  position: absolute;
+}
+.cover {
+  position: absolute;
+  transition: transform 400ms ease-in;
+  pointer-events: none;
+}
+
+img {
+  float: left;
+}
+
+.trigger:hover .cover {
+  transform: translate(200px, 150px) rotate(20deg);
+}
+
+.flyIn {
+  animation-name: flyIn;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flyIn {
+  0% {
+    bottom: 0px;
+  }
+  25% {
+    bottom: 200px;
+  }
+  75% {
+    bottom: 400px;
+  }
+  100% {
+    bottom: 100vh - 200px;
+  }
+}
