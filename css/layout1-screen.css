@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  background-color: red;
-}
-
 body {
   background-image: url('../images/bg_one.jpg');
   color: #3a3f3f;
