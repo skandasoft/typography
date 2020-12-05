@@ -2,7 +2,7 @@ body {
   font-family: Raleway, 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode',
     'Lucida Sans', Tahoma, sans-serif;
   font-size: 1.125rem;
-  /* line-height: 1.618; */
+  line-height: 1.618;
 }
 
 h1 {
