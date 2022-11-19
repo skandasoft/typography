@@ -21,6 +21,6 @@
     "babel-plugin-transform-es5-property-mutators": "^6.24.1",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   }
 }
